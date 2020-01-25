@@ -1,0 +1,48 @@
+/*
+Theme Name: Theme sample
+Theme URI: https://npacifique.us/
+Author: Pacifique Ntahurunga
+Author URI: https://npacifique.us/
+Description: Theme created for Advocate for peace and change.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: twentythirteen
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+
+
+/* fallback for old browsers */
+/* Chrome 10-25, Safari 5.1-6 */
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Raleway:100,300,400,900,900i&display=swap");
+@font-face {
+  font-family: "Artifact";
+  src: url("./Artifact.otf") format("woff2"), url("./Artifact.otf") format("woff"); }
+
+.current-menu-item a:link,
+.current-menu-item a:visited{
+  opacity: .8;
+  color: red;
+  font-weight: 900;
+}
+
+/* img{
+  width: 100%;
+  height: auto;
+} */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #2d3436;
+  padding: 2.4rem;
+  background: #fff; 
+}
